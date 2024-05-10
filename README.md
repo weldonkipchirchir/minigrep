@@ -10,7 +10,7 @@ To use MiniGrep, follow these steps:
 
 2. Clone the MiniGrep repository to your local machine:
    ```
-   git clone https://github.com/your-weldonkipchirchir/minigrep.git
+   git clone https://github.com/weldonkipchirchir/minigrep.git
    ```
 
 3. Navigate to the `minigrep` directory:
@@ -29,8 +29,6 @@ To use MiniGrep, follow these steps:
 
 ## Features
 
-## Features
-
 - **Case Sensitivity**: By default, MiniGrep performs case-sensitive searches. It will only match lines that exactly match the search query.
 - **Case Insensitivity**: MiniGrep supports case-insensitive searches. To enable this feature, set the `IGNORE_CASE` environment variable before running MiniGrep.
 - **Error Handling**: MiniGrep provides error messages for invalid command-line arguments or file read errors.ep.
@@ -46,10 +44,10 @@ Pick three.
 Duct tape.
 ```
 
-To search for the string "duct" in a case-sensitive manner, run the following command:
+To search for the string "safe" in a case-sensitive manner, run the following command:
 
 ```
-cargo run -- duct example.txt
+cargo run -- safe example.txt
 ```
 
 This will output:
@@ -68,18 +66,7 @@ This will output:
 
 ```
 Rust:
-Duct tape.
 ```
-
-## Running Tests
-
-To run the tests for MiniGrep, simply execute the following command:
-
-```
-cargo test
-```
-
-This will run both the case-sensitive and case-insensitive search tests defined in the `tests` module.
 
 ## Contributing
 
